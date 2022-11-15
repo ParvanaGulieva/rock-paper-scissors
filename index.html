@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link
+      rel="shortcut icon"
+      href="/rock-paper-scissors-line-icons-vector.jpg"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Trispace:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Rock Paper Scissor</h1>
+    <div class="restart"><button class="restart-btn">Restart</button></div>
+    <div class="result-t"></div>
+    <div class="participants">
+      <div class="participant you">
+        <div class="result">You: <span class="your-result">0</span></div>
+        <div class="participant-image">
+          <img src="" />
+        </div>
+      </div>
+      <div class="participant computer">
+        <div class="result">Computer: <span class="comp-result">0</span></div>
+        <div class="participant-image"></div>
+      </div>
+    </div>
+    <h2>Choose one!</h2>
+    <div class="selections">
+      <button data-type="paper" class="selection paper">
+        <img data-type="paper" class="btn-img" src="/paper.png" alt="" />
+      </button>
+      <button data-type="rock" class="selection rock">
+        <img data-type="rock" class="btn-img" src="/rock.png" alt="" />
+      </button>
+      <button data-type="scissors" class="selection scissors">
+        <img data-type="scissors" class="btn-img" src="/scissors.png" alt="" />
+      </button>
+    </div>
+  </body>
+</html>
